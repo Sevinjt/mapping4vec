@@ -1,4 +1,4 @@
-# OWL2Vec-Star Ext
+# OWL2Vec-Star Extended version 
 
 
 OWL2Vec-Star Extended version 2023 by Sevinj Teymurova
@@ -14,17 +14,16 @@ OWL2Vec-Star Extended version 2023 by Sevinj Teymurova
 ### Features
 --------
 
-OWL2Vec*Ext exposes a CLI with two subcommands after installation, which allows you to perform two main programs.
-You can also run the two original python programs without installation (see the requirements in `setup.py <https://github.com/KRR-Oxford/OWL2Vec-Star/blob/master/setup.py>`__).
+After installation, OWL2Vec*Ext exposes a CLI with two subcommands that enable the execution of two main programs. Additionally, you have the option to run the two original Python programs without the need for installation. (see the requirements in `setup.py <https://github.com/KRR-Oxford/OWL2Vec-Star/blob/master/setup.py>`__).
 
-Installation command::
+Installation command:
 ```
     $ make install
 ```
 ### Standalone
 ------------
-This command will embed two ontologies and their corresponding mappings. It can be configured by the configuration file default1.cfg.
-See the examples and comments in default1.cfg for the usage.
+
+This command will embed two ontologies along with their corresponding mappings. Configuration can be customized using the default1.cfg file. Refer to the examples and comments in default1.cfg for usage guidance.
 
 
 ### Running program::
@@ -53,9 +52,8 @@ See the examples and comments in default1.cfg for the usage.
 ``` 
     jupyter_notebook_owl2vec_star_ext.ipynb 
 ```
-Note: Different from the experimental codes, the standalone command has implemented all OWL ontology
-relevant procedures in python with Owlready, but it also allows the user to use pre-calculated
-annotations/axioms/entities/projection to generate the corpus.
+
+Note: In contrast to the experimental codes, the standalone command has implemented all OWL ontology-relevant procedures in Python with Owlready. However, it also enables users to utilize pre-calculated annotations, axioms, entities, or projections to generate the corpus of sentences. 
 
 **Parameters to change when running the code with help of configuration file**
 1. ontology_file1 
@@ -97,9 +95,9 @@ annotations/axioms/entities/projection to generate the corpus.
 
 ### Case Studies
 ------------
-Data and codes for class membership prediction on the Healthy Lifestyles (HeLis) ontology, and class subsumption prediction on the food ontology FoodOn and the Gene Ontology (GO), [MyUniversity] and [Conference] are under the folder `case_studies/`.
+Data and codes for class membership prediction on the Healthy Lifestyles (HeLis) ontology, as well as class subsumption prediction on the food ontology FoodOn and the Gene Ontology (GO), [MyUniversity], and [Conference] are located under the folder case_studies/.`.
 
 
 ### Credits
 -------
-Code under `owl2vec_star/rdf2vec/mapping4vec.py`  implements bias sampling walking strategy over RDF graphs, (version 0.0.1, last access: 08/2023) with revision.
+The code located at "owl2vec_star/rdf2vec/mapping4vec.py" implements a biased sampling walking strategy over RDF graphs (version 0.0.1, last accessed: 08/2023) with revisions.
