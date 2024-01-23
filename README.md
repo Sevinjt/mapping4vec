@@ -97,7 +97,7 @@ annotations/axioms/entities/projection to generate the corpus.
 
 ### Case Studies
 ------------
-Data and codes for class membership prediction on the Healthy Lifestyles (HeLis) ontology, and class subsumption prediction on the food ontology FoodOn and the Gene Ontology (GO), [MyUniversity](here must be a link to these datas ) and [Conference](here must be a link to these datas ) are under the folder `case_studies/`.
+Data and codes for class membership prediction on the Healthy Lifestyles (HeLis) ontology, and class subsumption prediction on the food ontology FoodOn and the Gene Ontology (GO), [MyUniversity] and [Conference] are under the folder `case_studies/`.
 
 
 ### Credits
